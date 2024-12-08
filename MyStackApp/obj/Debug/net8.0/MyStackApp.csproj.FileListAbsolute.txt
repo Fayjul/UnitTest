@@ -1,0 +1,12 @@
+C:\Learning\UnitTest\MyStackApp\bin\Debug\net8.0\MyStackApp.deps.json
+C:\Learning\UnitTest\MyStackApp\bin\Debug\net8.0\MyStackApp.dll
+C:\Learning\UnitTest\MyStackApp\bin\Debug\net8.0\MyStackApp.pdb
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\MyStackApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\MyStackApp.AssemblyInfoInputs.cache
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\MyStackApp.AssemblyInfo.cs
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\MyStackApp.csproj.CoreCompileInputs.cache
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\MyStackApp.sourcelink.json
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\MyStackApp.dll
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\refint\MyStackApp.dll
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\MyStackApp.pdb
+C:\Learning\UnitTest\MyStackApp\obj\Debug\net8.0\ref\MyStackApp.dll
