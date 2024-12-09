@@ -1,4 +1,4 @@
-﻿namespace MyStackApp
+namespace MyStackApp
 {
     public class MyStack<T>
     {
@@ -29,6 +29,17 @@
         public int Size()
         {
             return _elements.Count;
+        }
+
+        public object Top()
+        {
+            int position = _elements.Count;
+            if (position == 0)
+            {
+                throw new InvalidOperationException("Stack underflow");
+            }
+
+            return _elements[position - 1];
         }
     }
 }
