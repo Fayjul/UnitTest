@@ -1,4 +1,4 @@
-﻿using MyStackApp;
+using MyStackApp;
 using NUnit.Framework;
 
 namespace MyStackAppTest
@@ -92,7 +92,33 @@ namespace MyStackAppTest
         public void PopInEmptyStack()
         {
             var stack = new MyStack<int>();
-            Assert.AreEqual("Stack underflow", stack.Pop());
+            var ex = Assert.Throws<InvalidOperationException>(() => stack.Pop());
+            Assert.AreEqual("Stack underflow", ex.Message);
+        }
+
+        [Test]
+        public void CountAfterTopOperation()
+        {
+            var stack = new MyStack<int>();
+            stack.Push(1);
+            var topElement = stack.Top();
+            Assert.AreEqual(1, stack.Size());
+        }
+        [Test]
+        public void CompareAfterTopOperation()
+        {
+            var stack = new MyStack<int>();
+            stack.Push(2);
+            var topElement = stack.Top();
+            Assert.AreEqual(2, stack.Top());
+        }
+
+        [Test]
+        public void TopInEmptyStack()
+        {
+            var stack = new MyStack<int>();
+            var ex = Assert.Throws<InvalidOperationException>(() => stack.Top());
+            Assert.AreEqual("Stack underflow", ex.Message);
         }
 
     }
